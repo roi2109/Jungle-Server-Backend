@@ -1,0 +1,37 @@
+@local= http://localhost:3000
+###
+POST {{local}}/sign-up/
+Content-Type: application/json
+
+{"email":"ro1234a@gmail.com",
+"name":"roi",
+"password":"rldsadsad"}
+
+###
+POST {{local}}/get-user
+Content-Type: application/json
+
+{"email":"roi2@gmail.com",
+"password":"111111"}
+
+###
+GET {{local}}/appointments
+Content-Type: application/json
+
+
+
+###
+POST {{local}}/make-appointment/64273b86450a03cfecd928e7
+Content-Type: application/json
+
+ {
+
+      "role":"jungle"
+ }
+
+ 
+
+ 
+
+
+ 
